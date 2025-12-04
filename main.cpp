@@ -4,62 +4,27 @@
 #include "DoublyLinkedList.h"
 #include "CircularLinkedList.h"
 #include "DoublyCircularLinkedList.h"
-#include "SeqStack.h"
+#include "StaticLinkedList.h"
+#include "Stack/Inc/SeqStack.h"
+#include "Stack/Inc/LnkStack.h"
+#include "Queue/Inc/SeqQueue.h"
+#include "Queue/Inc/LinkedQueue.h"
+#include "Tree/Inc/BinaryTree.h"
+#include "Tree/Inc/BinarySearchTree.h"
+#include "Tree/Inc/SeqBinaryTree.h"
 using namespace std;
 
 int main() {
-
-    SeqStack stack(5);
-    stack.push(10);
-    stack.push(20);
-    stack.push(30);
-
-    stack.print();
-    system("pause");
-
+    BST bst;
+    bst.insert(50);
+    bst.insert(30);
+    bst.insert(70);
+    bst.insert(20);
+    bst.insert(40);
+    bst.insert(60);
+    bst.insert(80);
+    cout << "In-order Traversal of BST: ";
+    bst.postOrder(); // Expected output: 20 30 40 50 60 70 80
+    cout << endl;
     return 0;
 }
-
-// int main() {
-//     // //顺序表
-//     // SeqList sl(10);
-//     //
-//     // for (int i = 0; i < sizeof(sl)+1; ++i) {
-//     //     sl.insert(i, i );
-//     // }
-//     //
-//     // printf("SeqList: ");
-//     // sl.print();
-//     //
-//     // //单链表
-//     // SinglyLinkedList sll;
-//     // sll.insert(1, 10);
-//     // sll.insert(2, 20);
-//     // sll.insert(3, 30);
-//     //
-//     // printf("SinglyLinkedList: ");
-//     // sll.print();
-//
-//     // //双向链表
-//     // DoublyLinkedList dll;
-//     // dll.insert(1, 100);
-//     // dll.insert(2, 200);
-//     // dll.insert(3, 300);
-//     //
-//     // printf("DoublyLinkedList:");
-//     // dll.printForward();
-//     // dll.printBackward();
-//
-//     //单向环链
-//     CircularLinkedList cll;
-//     cll.insert(1, 1000);
-//     cll.insert(2, 2000);
-//     cll.insert(3, 3000);
-//     printf("CircularLinkedList: ");
-//     cll.print();
-//
-//     system("pause");
-//
-//     return 0;
-// }
-//
