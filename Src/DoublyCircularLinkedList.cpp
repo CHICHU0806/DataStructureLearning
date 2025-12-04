@@ -2,7 +2,7 @@
 // Created by 20852 on 2025/10/24.
 //
 
-#include "DoublyCIrcularLinkedList.h"
+#include "DoublyCircularLinkedList.h"
 
 #include <iostream>
 #include <stdexcept>
