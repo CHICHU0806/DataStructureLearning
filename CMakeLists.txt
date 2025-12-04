@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.28)
-project(contest)
+project(DataStructandAlgorithmLearing)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(contest main.cpp
+add_executable(DataStructandAlgorithmLearing main.cpp
         Src/SeqList.cpp
         Inc/SeqList.h
         Src/SinglyLinkedList.cpp
@@ -17,9 +17,10 @@ add_executable(contest main.cpp
         Src/StaticLinkedList.cpp
         Inc/StaticLinkedList.h
         Src/SeqStack.cpp
-        Src/SeqStack.h
+        Inc/SeqStack.h
 )
 
-target_include_directories(contest PRIVATE
+target_include_directories(DataStructandAlgorithmLearing PRIVATE
         Inc
+        Src
 )

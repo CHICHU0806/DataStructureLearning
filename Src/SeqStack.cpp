@@ -10,7 +10,7 @@ using namespace std;
 SeqStack::SeqStack(int size) {
     maxSize = size;
     data = new int[maxSize];
-    top = -1;
+    top = -1; // 栈顶指针初始化为-1，表示栈为空
 }
 
 // 析构函数
@@ -68,5 +68,5 @@ void SeqStack::print() const {
     for (int i = 0; i <= top; i++) {
         cout << data[i] << " ";
     }
-    cout << endl;Stack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is emptyStack is empty
+    cout << endl;
 }

@@ -4,22 +4,17 @@
 #include "DoublyLinkedList.h"
 #include "CircularLinkedList.h"
 #include "DoublyCircularLinkedList.h"
-#include "Src/SeqStack.h"
+#include "SeqStack.h"
 using namespace std;
 
 int main() {
-    //4.1
-    SeqList List;
-    List.insert(1,2);
-    List.insert(2,23);
-    List.insert(3,15);
-    List.insert(4,5);
-    List.insert(5,9);
 
-    List.remove(3);
+    SeqStack stack(5);
+    stack.push(10);
+    stack.push(20);
+    stack.push(30);
 
-    List.print();
-
+    stack.print();
     system("pause");
 
     return 0;
