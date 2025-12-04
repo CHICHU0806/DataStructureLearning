@@ -5,6 +5,7 @@
 #ifndef CONTEST_DOUBLYLINKEDLIST_H
 #define CONTEST_DOUBLYLINKEDLIST_H
 
+//双向链表
 struct DNode {
     int data;
     DNode* prev;

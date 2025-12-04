@@ -5,6 +5,7 @@
 #ifndef CONTEST_SEQLIST_H
 #define CONTEST_SEQLIST_H
 
+//顺序表
 class SeqList {
 public:
     explicit SeqList(int cap = 10);  // 构造函数，初始化容量，默认为10

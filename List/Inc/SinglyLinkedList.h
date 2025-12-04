@@ -5,6 +5,7 @@
 #ifndef CONTEST_SINGLYLINKEDLIST_H
 #define CONTEST_SINGLYLINKEDLIST_H
 
+//单链表
 struct Node {
     int data;   //数据
     Node* next; //指向下个节点的指针

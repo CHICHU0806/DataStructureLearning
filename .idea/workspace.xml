@@ -28,21 +28,36 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/List.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/contest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.4 顺序栈">
+      <change afterPath="$PROJECT_DIR$/List/List.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Inc/LinkedQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Inc/SeqQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Src/LinkedQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/Src/SeqQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Inc/LnkStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Src/LnkStack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Inc/BinarySearchTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Inc/BinaryTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Inc/SeqBinaryTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Src/BinarySearchTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Src/BinaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Src/SeqBinaryTree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/SeqStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Src/SeqStack.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/SeqStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/SeqStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/CircularLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/CircularLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/DoublyCircularLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/DoublyCircularLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/DoublyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/DoublyLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/SeqList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/SeqList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/SeqStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/Inc/SeqStack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/SinglyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/SinglyLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inc/StaticLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/StaticLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/CircularLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/CircularLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/DoublyCircularLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/DoublyCircularLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/DoublyLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/SeqList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/SeqList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/SeqStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/Src/SeqStack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/SinglyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/SinglyLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/StaticLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/StaticLinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +84,13 @@
     "accountId": "d42332aa-6d4a-4555-8299-7cf8ab7d1a26"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/List/Inc/SeqList.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/List/Inc/SinglyLinkedList.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/List/Src/SeqList.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stack/Inc/SeqStack.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stack/Src/SeqStack.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2025" />
@@ -96,6 +118,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
@@ -111,7 +134,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Owner\DataStructandAlgorithmLearing\Inc" />
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\Tree\Inc" />
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\List" />
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\Queue\Inc" />
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\Stack" />
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\Stack\Inc" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,8 +160,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764813642999</updated>
-      <workItem from="1764813644285" duration="13827000" />
+      <workItem from="1764813644285" duration="27800000" />
     </task>
+    <task id="LOCAL-00001" summary="12.4 顺序栈">
+      <option name="closed" value="true" />
+      <created>1764849392899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764849392899</updated>
+    </task>
+    <task id="LOCAL-00002" summary="12.4 顺序栈">
+      <option name="closed" value="true" />
+      <created>1764855385681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764855385681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="12.4 顺序栈">
+      <option name="closed" value="true" />
+      <created>1764855558330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764855558330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +196,10 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12.4 顺序栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.4 顺序栈" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -5,6 +5,7 @@
 #ifndef CONTEST_STATICLINKEDLIST_H
 #define CONTEST_STATICLINKEDLIST_H
 
+// 静态链表
 struct StaticNode {
     int data;  // 数据域
     int next;  // 指针域（存储下一个元素的下标）

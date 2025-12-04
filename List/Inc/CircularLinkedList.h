@@ -5,6 +5,7 @@
 #ifndef CONTEST_CIRCULARLINKEDLIST_H
 #define CONTEST_CIRCULARLINKEDLIST_H
 
+//循环链表
 struct CLLNode {
     int data;   //数据
     CLLNode* next; //指向下个节点的指针
