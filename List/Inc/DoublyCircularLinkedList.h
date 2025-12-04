@@ -5,6 +5,7 @@
 #ifndef CONTEST_DOUBLYCIRCULARLINKEDLIST_H
 #define CONTEST_DOUBLYCIRCULARLINKEDLIST_H
 
+//双向循环链表
 struct DCNode {
     int data;
     DCNode* prev;
