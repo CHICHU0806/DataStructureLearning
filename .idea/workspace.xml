@@ -8,9 +8,9 @@
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -28,36 +28,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.4 顺序栈">
-      <change afterPath="$PROJECT_DIR$/List/List.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/Inc/LinkedQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/Inc/SeqQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/Src/LinkedQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/Src/SeqQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/Inc/LnkStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/Src/LnkStack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Inc/BinarySearchTree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Inc/BinaryTree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Inc/SeqBinaryTree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Src/BinarySearchTree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Src/BinaryTree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Src/SeqBinaryTree.cpp" afterDir="false" />
+    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.5 文件结构更新">
+      <change afterPath="$PROJECT_DIR$/Graph/Inc/Graph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/Src/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructandAlgorithmLearing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructandAlgorithmLearing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/CircularLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/CircularLinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/DoublyCircularLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/DoublyCircularLinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/DoublyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/DoublyLinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/SeqList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/SeqList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/SeqStack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/Inc/SeqStack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/SinglyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/SinglyLinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/StaticLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/List/Inc/StaticLinkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/CircularLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/CircularLinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/DoublyCircularLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/DoublyCircularLinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/DoublyLinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/SeqList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/SeqList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/SeqStack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/Src/SeqStack.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/SinglyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/SinglyLinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/StaticLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List/Src/StaticLinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,18 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CHICHU0806"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CHICHU0806&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CHICHU0806/DataStructureLearning.git",
-    "accountId": "d42332aa-6d4a-4555-8299-7cf8ab7d1a26"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CHICHU0806/DataStructureLearning.git&quot;,
+    &quot;accountId&quot;: &quot;6fea4cd6-2e86-4459-805a-b24e81e79f04&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/List/Inc/SeqList.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/List/Inc/SinglyLinkedList.h" root0="FORCE_HIGHLIGHTING" />
@@ -91,15 +68,18 @@
     <setting file="file://$PROJECT_DIR$/Stack/Inc/SeqStack.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stack/Src/SeqStack.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="u5zhzxBO" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2025" />
     <option name="minorVersion" value="2.5" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="36MPoZNrWvJ69FYfo63t5jNohdQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -107,46 +87,43 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "CMake 应用程序.DataStructandAlgorithmLearing.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake 应用程序.DataStructandAlgorithmLearing.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Owner/DataStructandAlgorithmLearing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\Graph\Inc" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\Tree\Inc" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\List" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\Queue\Inc" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\Stack" />
-      <recent name="D:\Owner\DataStructandAlgorithmLearing\Stack\Inc" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataStructandAlgorithmLearing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructandAlgorithmLearing" TARGET_NAME="DataStructandAlgorithmLearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructandAlgorithmLearing" RUN_TARGET_NAME="DataStructandAlgorithmLearing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -160,7 +137,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764813642999</updated>
-      <workItem from="1764813644285" duration="27800000" />
+      <workItem from="1764813644285" duration="33951000" />
+      <workItem from="1765000909654" duration="155000" />
+      <workItem from="1765031040398" duration="51000" />
+      <workItem from="1765547636560" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="12.4 顺序栈">
       <option name="closed" value="true" />
@@ -186,7 +166,95 @@
       <option name="project" value="LOCAL" />
       <updated>1764855558330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12.5 文件结构调整">
+      <option name="closed" value="true" />
+      <created>1764876544841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876544841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12.5 新增List相关笔记">
+      <option name="closed" value="true" />
+      <created>1764876561715</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876561715</updated>
+    </task>
+    <task id="LOCAL-00006" summary="12.5 新增链表队列实现">
+      <option name="closed" value="true" />
+      <created>1764876574378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876574378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="12.5 新增链表栈实现">
+      <option name="closed" value="true" />
+      <created>1764876581445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876581446</updated>
+    </task>
+    <task id="LOCAL-00008" summary="12.5 新增顺序二叉树实现">
+      <option name="closed" value="true" />
+      <created>1764876591549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876591549</updated>
+    </task>
+    <task id="LOCAL-00009" summary="12.5 新增顺序队列实现">
+      <option name="closed" value="true" />
+      <created>1764876598148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876598148</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12.5 新增顺序栈实现">
+      <option name="closed" value="true" />
+      <created>1764876604732</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876604732</updated>
+    </task>
+    <task id="LOCAL-00011" summary="12.5 新增二叉树实现">
+      <option name="closed" value="true" />
+      <created>1764876612141</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876612141</updated>
+    </task>
+    <task id="LOCAL-00012" summary="12.5 新增二叉搜索树实现">
+      <option name="closed" value="true" />
+      <created>1764876621904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876621904</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12.5 文件结构更新">
+      <option name="closed" value="true" />
+      <created>1764876632467</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876632467</updated>
+    </task>
+    <task id="LOCAL-00014" summary="12.5 文件结构更新">
+      <option name="closed" value="true" />
+      <created>1764876636718</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876636718</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +267,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12.4 顺序栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.4 顺序栈" />
+    <MESSAGE value="12.5 文件结构调整" />
+    <MESSAGE value="12.5 新增List相关笔记" />
+    <MESSAGE value="12.5 新增链表队列实现" />
+    <MESSAGE value="12.5 新增链表栈实现" />
+    <MESSAGE value="12.5 新增顺序二叉树实现" />
+    <MESSAGE value="12.5 新增顺序队列实现" />
+    <MESSAGE value="12.5 新增顺序栈实现" />
+    <MESSAGE value="12.5 新增二叉树实现" />
+    <MESSAGE value="12.5 新增二叉搜索树实现" />
+    <MESSAGE value="12.5 文件结构更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.5 文件结构更新" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
