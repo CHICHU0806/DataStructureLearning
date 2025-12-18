@@ -1,0 +1,31 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/DataStructandAlgorithmLearing.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/List/Src/SeqList.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/List/Src/SinglyLinkedList.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/List/Src/DoublyLinkedList.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/List/Src/CircularLinkedList.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/List/Src/DoublyCircularLinkedList.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/List/Src/StaticLinkedList.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Stack/Src/SeqStack.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Stack/Src/LnkStack.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Queue/Src/LinkedQueue.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Queue/Src/SeqQueue.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Tree/Src/BinaryTree.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Tree/Src/SeqBinaryTree.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Tree/Src/BinarySearchTree.cpp.obj: dyndep
+
+build CMakeFiles/DataStructandAlgorithmLearing.dir/Graph/Src/Graph.cpp.obj: dyndep
+

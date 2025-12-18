@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\DataStructandAlgorithmLearing.dir\\Graph\\Src\\Graph.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

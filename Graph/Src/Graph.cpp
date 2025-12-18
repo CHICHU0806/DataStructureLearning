@@ -3,6 +3,7 @@
 #include <iostream>
 #include <queue>
 #include <stack>
+#include <limits>
 
 Graph::Graph(int n)
         : numVertex(n), numEdge(0), mark(n, 0) {}
@@ -156,6 +157,45 @@ void GraphAlgo::TopSort_Kahn(Graph &g, std::vector<int> &result) {
             indeg[w]--;
             if (indeg[w] == 0) q.push(w);
             w = g.next(u, w);
+        }
+    }
+}
+
+void GraphAlgo::Dijkstra(Graph &g, int s, std::vector<int> &dist, std::vector<int> &prev) {
+    int n = g.n();
+    dist.assign(n, std::numeric_limits<int>::max());
+    prev.assign(n, -1);
+
+    for (int i = 0; i < n; ++i) g.setMark(i, 0);
+
+    if (s < 0 || s >= n) return;
+    dist[s] = 0;
+
+    for (int i = 0; i < n; ++i) {
+        int v = -1;
+        int minDist = std::numeric_limits<int>::max();
+
+        for (int j = 0; j < n; ++j) {
+            if (g.getMark(j) == 0 && dist[j] < minDist) {
+                minDist = dist[j];
+                v = j;
+            }
+        }
+
+        if (v == -1) break;
+
+        g.setMark(v, 1);
+
+        int w = g.first(v);
+        while (w != -1) {
+            if (g.getMark(w) == 0) {
+                int weight = g.weight(v, w);
+                if (dist[v] != std::numeric_limits<int>::max() && dist[v] + weight < dist[w]) {
+                    dist[w] = dist[v] + weight;
+                    prev[w] = v;
+                }
+            }
+            w = g.next(v, w);
         }
     }
 }

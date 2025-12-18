@@ -62,6 +62,7 @@ public:
     static void BFS(Graph &g, int v);
     static void TopSort_DFS(Graph &g, std::vector<int> &result);
     static void TopSort_Kahn(Graph &g, std::vector<int> &result);
+    static void Dijkstra(Graph &g, int s, std::vector<int> &dist, std::vector<int> &prev);
 
 private:
     static void DFS_Visit(Graph &g, int v, std::vector<int> &result);

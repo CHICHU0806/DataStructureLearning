@@ -1,0 +1,25 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "D:/Owner/DataStructandAlgorithmLearing/build",
+	"dir-cur-src" : "D:/Owner/DataStructandAlgorithmLearing",
+	"dir-top-bld" : "D:/Owner/DataStructandAlgorithmLearing/build",
+	"dir-top-src" : "D:/Owner/DataStructandAlgorithmLearing",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"D:\\Owner\\DataStructandAlgorithmLearing\\List\\Inc",
+		"D:\\Owner\\DataStructandAlgorithmLearing\\Stack\\Inc",
+		"D:\\Owner\\DataStructandAlgorithmLearing\\Queue\\Inc",
+		"D:\\Owner\\DataStructandAlgorithmLearing\\Tree\\Inc",
+		"D:\\Owner\\DataStructandAlgorithmLearing\\Graph\\Inc"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/Owner/DataStructandAlgorithmLearing/build/CMakeFiles/DataStructandAlgorithmLearing.dir"
+}

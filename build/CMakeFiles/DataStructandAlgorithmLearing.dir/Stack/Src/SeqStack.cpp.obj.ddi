@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\DataStructandAlgorithmLearing.dir\\Stack\\Src\\SeqStack.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

@@ -28,13 +28,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.5 文件结构更新">
-      <change afterPath="$PROJECT_DIR$/Graph/Inc/Graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graph/Src/Graph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructandAlgorithmLearing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructandAlgorithmLearing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.12 添加图相关内容">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/Inc/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Inc/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/Src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Src/Graph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +121,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStructandAlgorithmLearing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructandAlgorithmLearing" TARGET_NAME="DataStructandAlgorithmLearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructandAlgorithmLearing" RUN_TARGET_NAME="DataStructandAlgorithmLearing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -141,6 +143,9 @@
       <workItem from="1765000909654" duration="155000" />
       <workItem from="1765031040398" duration="51000" />
       <workItem from="1765547636560" duration="2629000" />
+      <workItem from="1765550330008" duration="47000" />
+      <workItem from="1765550650848" duration="3000" />
+      <workItem from="1766064770145" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="12.4 顺序栈">
       <option name="closed" value="true" />
@@ -254,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764876636718</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12.12 添加图相关内容">
+      <option name="closed" value="true" />
+      <created>1765550348280</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765550348280</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +290,8 @@
     <MESSAGE value="12.5 新增二叉树实现" />
     <MESSAGE value="12.5 新增二叉搜索树实现" />
     <MESSAGE value="12.5 文件结构更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.5 文件结构更新" />
+    <MESSAGE value="12.12 添加图相关内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.12 添加图相关内容" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
