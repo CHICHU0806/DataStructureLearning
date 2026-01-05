@@ -1,4 +1,4 @@
-//
+ //
 // Created by 20852 on 2025/12/5.
 //
 
@@ -23,7 +23,7 @@ bool BST::_insert(Node*& node, int value) {
     }
     if (value < node->data) return _insert(node->left, value);
     else if (value > node->data) return _insert(node->right, value);
-    else return false; // 不允许重复
+    else return false;
 }
 
 bool BST::search(int value) const {
@@ -36,8 +36,6 @@ bool BST::_search(Node* node, int value) const {
     else if (value < node->data) return _search(node->left, value);
     else return _search(node->right, value);
 }
-
-// ---------- 遍历 ----------
 
 void BST::inOrder() const {
     _inOrder(root);
@@ -75,8 +73,6 @@ void BST::_postOrder(Node* node) const {
     cout << node->data << " ";
 }
 
-// ---------- 清空树 ----------
-
 void BST::clear() {
     _clear(root);
     root = nullptr;
@@ -87,4 +83,22 @@ void BST::_clear(Node* node) {
     _clear(node->left);
     _clear(node->right);
     delete node;
+}
+
+int BST::smallCount(int K) const {
+    return _smallCount(root, K);
+}
+
+int BST::_smallCount(Node* node, int K) const {
+    if (node == nullptr) {
+        return 0;
+    }
+
+    if (node->data > K) {
+        return _smallCount(node->left, K);
+    } else {
+        return 1
+             + _smallCount(node->left, K)
+             + _smallCount(node->right, K);
+    }
 }

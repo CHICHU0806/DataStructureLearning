@@ -16,6 +16,7 @@ public:
     void preOrder() const;
     void postOrder() const;
     void clear();
+    int smallCount(int K) const;
 
 private:
     struct Node {
@@ -27,13 +28,13 @@ private:
 
     Node* root;
 
-    // 私有递归函数
     bool _insert(Node*& node, int value);
     bool _search(Node* node, int value) const;
     void _inOrder(Node* node) const;
     void _preOrder(Node* node) const;
     void _postOrder(Node* node) const;
     void _clear(Node* node);
+    int _smallCount(Node* node, int K) const;
 };
 
 

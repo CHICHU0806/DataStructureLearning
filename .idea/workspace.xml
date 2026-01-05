@@ -28,10 +28,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.12 添加图相关内容">
+    <list default="true" id="6daf1e93-9898-4e58-a37e-706a8f286617" name="更改" comment="12.18 添加图相关内容">
+      <change afterPath="$PROJECT_DIR$/Sort/Sort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/Sort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Inc/Heap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/Src/Heap.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Inc/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Inc/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Src/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/Inc/BinarySearchTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/Inc/BinarySearchTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/Src/BinarySearchTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/Src/BinarySearchTree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,17 +118,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Owner\DataStructandAlgorithmLearing\Graph\Inc" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\Tree\Inc" />
+      <recent name="D:\Owner\DataStructandAlgorithmLearing\Graph\Inc" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\List" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\Queue\Inc" />
       <recent name="D:\Owner\DataStructandAlgorithmLearing\Stack" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="DataStructandAlgorithmLearing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructandAlgorithmLearing" TARGET_NAME="DataStructandAlgorithmLearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructandAlgorithmLearing" RUN_TARGET_NAME="DataStructandAlgorithmLearing">
@@ -145,7 +150,13 @@
       <workItem from="1765547636560" duration="2629000" />
       <workItem from="1765550330008" duration="47000" />
       <workItem from="1765550650848" duration="3000" />
-      <workItem from="1766064770145" duration="1605000" />
+      <workItem from="1766064770145" duration="2324000" />
+      <workItem from="1766199912306" duration="43000" />
+      <workItem from="1767092543865" duration="2433000" />
+      <workItem from="1767161565183" duration="10919000" />
+      <workItem from="1767337155099" duration="22000" />
+      <workItem from="1767435816886" duration="5943000" />
+      <workItem from="1767589210856" duration="3062000" />
     </task>
     <task id="LOCAL-00001" summary="12.4 顺序栈">
       <option name="closed" value="true" />
@@ -267,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765550348280</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="12.18 添加图相关内容">
+      <option name="closed" value="true" />
+      <created>1766066410079</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766066410079</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +310,8 @@
     <MESSAGE value="12.5 新增二叉搜索树实现" />
     <MESSAGE value="12.5 文件结构更新" />
     <MESSAGE value="12.12 添加图相关内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.12 添加图相关内容" />
+    <MESSAGE value="12.18 添加图相关内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.18 添加图相关内容" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

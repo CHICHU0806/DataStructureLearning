@@ -32,6 +32,10 @@ add_executable(DataStructandAlgorithmLearing main.cpp
         Tree/Inc/BinarySearchTree.h
         Graph/Src/Graph.cpp
         Graph/Inc/Graph.h
+        Tree/Src/Heap.cpp
+        Tree/Inc/Heap.h
+        Sort/Sort.cpp
+        Sort/Sort.h
 )
 
 target_include_directories(DataStructandAlgorithmLearing PRIVATE
